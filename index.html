@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body style="background: rgb(12, 11, 11);">
+    <header>
+        <h1>Developer</h1>
+    </header>
+    <fieldset>
+        <form action="">
+            <legend>Entre com as seguites informações</legend>
+            <label for="nome-completo">Nome completo
+                <input type="search" id="nome-completo" name="nome-completo" placeholder="Nome completo" autofocus
+                    autocomplete="off" required>
+            </label>
+            <label for="cpf">CPF
+                <input type="search" id="cpf" name="cpf" placeholder="CPF" disabled autocomplete="off" require>
+            </label>
+            <label for="idade">Idade
+                <input type="search" id="idade" name="idade" placeholder="Idade " autocomplete="off" disabled>
+            </label>
+            <datalist id="email">
+                <option value="@gmail.com.br"></option>
+                <option value="@gmail.com"></option>
+                <option value="@yahoo.com.br"></option>
+                <option value="@yahoo.com"></option>
+                <option value="@outlook.com.br"></option>
+                <option value="@outlook.com"></option>
+                <option value="@terra.com.br"></option>
+                <option value="@terra.com"></option>
+                <option value="@ig.com.br"></option>
+                <option value="@ig.com"></option>
+
+
+            </datalist>
+            <label for="email">E-mail
+                <input type="email" id="email" list="email" class="email" title="Entre com o seu email"
+                    placeholder="E-mail" require>
+            </label>
+            <label for="data-nascimento">Data aniversario
+                <input type="date" id="date">
+            </label>
+
+            <input type="button" id="botaoLogar" value="Enviar formulario">
+        </form>
+    </fieldset>
+    <div class="botoes">
+        <button type="button" onclick="imagens()">Imagens</button>
+        <button type="button" onclick="documentos()">Documentos</button>
+        <button type="button" onclick=informativos()>Informativos</button>
+        <button type="button"><a href="downloads/html.pdf" download="downloads/html.pdf"
+                type="download">Downloads</a></button>
+        <button type="button" onclick="help()">Help !</button>
+    </div>
+
+    <section class="receber">
+
+    </section>
+
+    <form action="">
+        <input type="url" title="Entre com a url" id="url" placeholder="https://www.msn.com/pt-br">
+        <button type="submit">Enviar dados</button>
+    </form>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

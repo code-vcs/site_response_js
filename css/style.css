@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-right: 0px;
+}
+
+header {
+    background: rgb(44, 1, 41);
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
+
+fieldset {
+    display: flexbox;
+    border: 1px solid rgb(37, 37, 37);
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+legend {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(202, 199, 17);
+}
+
+input {
+    display: block;
+    outline: none;
+    color: rgb(136, 99, 136);
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 15pt;
+    padding-left: 15px;
+    border: none;
+    background-color: rgba(78, 78, 78, 0.335);
+    width: 100%;
+    height: 38px;
+
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 12pt;
+}
+
+label {
+    padding-left: 10px;
+    display: flexbox;
+    color: grey;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+button {
+    background: grey;
+    color: purple;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+div.botoes {
+    display: flexbox;
+    margin-top: 10px;
+}
+
+.botoes {
+    display: none; 
+}
+button{
+    width:100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#botaoLogar {
+    float: left;
+    align-self: center;
+    width: 180px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: -40px;
+    border-radius: 50px;
+    padding-left: 0px;
+    background: linear-gradient(+5deg, purple, black, black, purple);
+    color: white;
+    font-size: 12pt;
+}
+
+#botaoLogar:hover {
+
+    background: linear-gradient(-15deg, purple, black, black, purple);
+
+}
+
+img{
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color:purple;
+    font-style: oblique;
+    font-weight: bold;
+}
+.email{
+    width:100%;
+    color: white;
+    text-decoration-style: double;
+    background: rgb(36, 2, 37);
+    text-align: center;
+}
+#date{
+    text-align: center;
+    width: 205px;
+}
